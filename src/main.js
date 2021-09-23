@@ -11,123 +11,123 @@ const app = new App({
     teamNames: ["Dunning–Kruger Effect", "Impostor Syndrome"],
     qas: [
       {
-        question: "Which programing language is dead?",
+        question: "What are the most popular programming languages?",
         answers: [
           {
-            text: "Perl",
-            money: 17
+            text: "C#",
+            money: 17,
           },
           {
-            text: "PHP",
-            money: 11
+            text: "Python",
+            money: 11,
           },
           {
-            text: "Haskell",
-            money: 6
+            text: "Java",
+            money: 6,
           },
           {
-            text: "Lisp",
-            money: 4
+            text: "C",
+            money: 4,
           },
           {
             text: "Ruby",
-            money: 3
+            money: 3,
           },
           {
-            text: "Elm",
-            money: 1
-          }
-        ]
+            text: "Javascript",
+            money: 1,
+          },
+        ],
       },
       {
         question: "What is the most hated thing about programming?",
         answers: [
           {
-            text: "Whiteboarding",
-            money: 17
+            text: "Bugs",
+            money: 17,
           },
           {
             text: "Naming Things",
-            money: 11
+            money: 11,
           },
           {
             text: "Stand-ups",
-            money: 6
+            money: 6,
           },
           {
-            text: "OBOE",
-            money: 4
+            text: "Documentation",
+            money: 4,
           },
           {
-            text: "Cache Invalidation",
-            money: 3
+            text: "Compiling",
+            money: 3,
           },
           {
-            text: "Jira",
-            money: 1
-          }
-        ]
+            text: "Meetings",
+            money: 1,
+          },
+        ],
       },
       {
-        question: "Name a flame war you've been in.",
+        question: "Who are some of the major innovators in tech?",
         answers: [
           {
-            text: "Tabs vs Spaces",
-            money: 17
+            text: "Ada Lovelace",
+            money: 17,
           },
           {
-            text: "OOP vs Functional",
-            money: 11
+            text: "Tim Berners-Lee",
+            money: 11,
           },
           {
-            text: "GNOME vs KDE",
-            money: 6
+            text: "Charles Babbage",
+            money: 6,
           },
           {
-            text: "Vim vs Emacs",
-            money: 4
+            text: "Elon Musk",
+            money: 4,
           },
           {
-            text: "Chrome vs Firefox",
-            money: 3
+            text: "Jeff Besos",
+            money: 3,
           },
           {
-            text: "NoSQL vs RDMS",
-            money: 1
-          }
-        ]
+            text: "Bill Gates",
+            money: 1,
+          },
+        ],
       },
       {
-        question: "Which language should you rewrite something in?",
+        question: "What are some of the hottest tech companies today?",
         answers: [
           {
-            text: "Rust",
-            money: 17
+            text: "Tencent",
+            money: 17,
           },
           {
-            text: "Go",
-            money: 11
+            text: "Huawei",
+            money: 11,
           },
           {
-            text: "JavaScript",
-            money: 6
+            text: "IBM",
+            money: 6,
           },
           {
-            text: "Elm",
-            money: 4
+            text: "Microsoft",
+            money: 4,
           },
           {
-            text: "Kotlin",
-            money: 3
+            text: "Apple",
+            money: 3,
           },
           {
-            text: "Elixir",
-            money: 1
-          }
-        ]
-      }
-    ]
-  }
+            text: "Samsung",
+            money: 1,
+          },
+        ],
+      },
+    ],
+  },
 });
 
 export default app;
