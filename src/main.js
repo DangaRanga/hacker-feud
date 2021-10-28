@@ -1,14 +1,9 @@
-/*
-  (C) 2020 David Lettier
-  lettier.com
-*/
-
 import App from "./App.svelte";
 
 const app = new App({
   target: document.body,
   props: {
-    teamNames: ["Black-Hats", "White Hats"],
+    teamNames: ["Black Hat", "White Hat"],
     qas: [
       {
         question: "What are some ways to secure your online accounts?",
@@ -33,13 +28,8 @@ const app = new App({
             text: "Use a VPN",
             money: 3,
           },
-          {
-            text: "Don't Share Passwords",
-            money: 1,
-          },
         ],
       },
-
       {
         question: "Common cyber threats",
         answers: [
@@ -69,92 +59,61 @@ const app = new App({
           },
         ],
       },
-
       {
-        question: "Why use a VPN?",
+        question: "What are the worst ways to store a password?",
         answers: [
           {
-            text: "Privacy",
+            text: "On paper",
+            money: 20,
+          },
+          {
+            text: "Telling someone",
             money: 17,
           },
           {
-            text: "Piracy",
+            text: "In browser",
             money: 11,
           },
           {
-            text: "Streaming",
+            text: "On the desktop",
             money: 6,
           },
           {
-            text: "Vim vs Emacs",
+            text: "Email",
             money: 4,
           },
           {
-            text: "Chrome vs Firefox",
-            money: 3,
+            text: "Notes app",
+            money: 2,
           },
           {
-            text: "NoSQL vs RDMS",
-            money: 1,
-          },
-        ],
-      },
-
-      {
-        question: "Who are some of the major innovators in tech?",
-        answers: [
-          {
-            text: "Ada Lovelace",
-            money: 17,
-          },
-          {
-            text: "Tim Berners-Lee",
-            money: 11,
-          },
-          {
-            text: "Charles Babbage",
-            money: 6,
-          },
-          {
-            text: "Elon Musk",
-            money: 4,
-          },
-          {
-            text: "Jeff Besos",
-            money: 3,
-          },
-          {
-            text: "Bill Gates",
+            text: "None password protected device",
             money: 1,
           },
         ],
       },
       {
-        question: "What are some of the hottest tech companies today?",
+        question: "Biggest data breaches/cyber attacks in recent years",
         answers: [
           {
-            text: "Tencent",
+            text: "Amber Group",
             money: 17,
           },
           {
-            text: "Huawei",
+            text: "Solar Winds",
             money: 11,
           },
           {
-            text: "IBM",
+            text: "Yahoo",
             money: 6,
           },
           {
-            text: "Microsoft",
+            text: "Twitch",
             money: 4,
           },
           {
-            text: "Apple",
+            text: "Facebook",
             money: 3,
-          },
-          {
-            text: "Samsung",
-            money: 1,
           },
         ],
       },
