@@ -11,63 +11,95 @@ const app = new App({
     teamNames: ["Dunning–Kruger Effect", "Impostor Syndrome"],
     qas: [
       {
-        question: "What are the most popular programming languages?",
+        question: "What are some ways to secure your online accounts?",
         answers: [
           {
-            text: "C#",
+            text: "2FA",
             money: 17,
           },
           {
-            text: "Python",
+            text: "Strong passwords",
             money: 11,
           },
           {
-            text: "Java",
+            text: "Unique passwords",
             money: 6,
           },
           {
-            text: "C",
+            text: "Password manager",
             money: 4,
           },
           {
-            text: "Ruby",
+            text: "Use a VPN",
             money: 3,
           },
           {
-            text: "Javascript",
+            text: "Don't Share Passwords",
             money: 1,
           },
         ],
       },
+
       {
-        question: "What is the most hated thing about programming?",
+        question: "Common cyber threats",
         answers: [
           {
-            text: "Bugs",
+            text: "Phishing",
             money: 17,
           },
           {
-            text: "Naming Things",
+            text: "Malware",
             money: 11,
           },
           {
-            text: "Stand-ups",
+            text: "Ransomware",
             money: 6,
           },
           {
-            text: "Documentation",
+            text: "Virus",
             money: 4,
           },
           {
-            text: "Compiling",
+            text: "Pharming",
             money: 3,
           },
           {
-            text: "Meetings",
+            text: "Worm",
             money: 1,
           },
         ],
       },
+
+      {
+        question: "Why use a VPN?",
+        answers: [
+          {
+            text: "Privacy",
+            money: 17,
+          },
+          {
+            text: "Piracy",
+            money: 11,
+          },
+          {
+            text: "Streaming",
+            money: 6,
+          },
+          {
+            text: "Vim vs Emacs",
+            money: 4,
+          },
+          {
+            text: "Chrome vs Firefox",
+            money: 3,
+          },
+          {
+            text: "NoSQL vs RDMS",
+            money: 1,
+          },
+        ],
+      },
+
       {
         question: "Who are some of the major innovators in tech?",
         answers: [
