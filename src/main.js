@@ -8,7 +8,7 @@ import App from "./App.svelte";
 const app = new App({
   target: document.body,
   props: {
-    teamNames: ["Dunning–Kruger Effect", "Impostor Syndrome"],
+    teamNames: ["Black-Hats", "White Hats"],
     qas: [
       {
         question: "What are some ways to secure your online accounts?",
